@@ -5,8 +5,10 @@ from django.shortcuts import render
 def home(request):
     return render(request, 'recipes/home.html')
 
+def contato(request):
+    return render(request, 'recipes/contato.html', context={
+        'telefone': '(21) 98205-5397',
+    })
+
 def sobre(request):
     return HttpResponse("Sobre")
-
-def contato(request):
-    return HttpResponse("Contato")
