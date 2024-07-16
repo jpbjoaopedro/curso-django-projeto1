@@ -149,6 +149,16 @@ h6 {
     gap: var(--spacing-gutter-large);
 }
 
+.main-content-view .recipe-list-item {
+    max-width: 84rem;
+    margin: 0 auto;
+}
+
+.main-content-view .recipe-list-item:hover {
+    transform: none;
+    box-shadow: -.5rem .5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
 .recipe {
     background-color: var(--color-white);
     box-shadow: -.5rem .5rem 1rem 0 rgba(0, 0, 0, 0.2);
