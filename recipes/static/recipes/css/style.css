@@ -212,6 +212,11 @@ h6 {
     padding-top: calc(var(--spacing-gutter-medium) / 1.5);
 }
 
+.preparation-steps {
+    padding: var(--spacing-gutter-medium);
+    padding-top: calc(var(--spacing-gutter-medium) / 1.5);
+}
+
 .recipe-author a{
     color: var(--color-dark-text);
     text-decoration: none;
